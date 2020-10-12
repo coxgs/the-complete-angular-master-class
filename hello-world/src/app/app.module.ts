@@ -11,6 +11,7 @@ import { SharedModule } from './shared/shared.module';
 import { FavoriteComponent } from './favorite/favorite.component';
 import { PanelComponent } from './panel/panel.component';
 import { InputFormatDirective } from './input-format.directive';
+import { ContactFormComponent } from './contact-form/contact-form.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { InputFormatDirective } from './input-format.directive';
     CoursesComponent,
     FavoriteComponent,
     PanelComponent,
-    InputFormatDirective
+    InputFormatDirective,
+    ContactFormComponent
   ],
   imports: [
     BrowserModule,
