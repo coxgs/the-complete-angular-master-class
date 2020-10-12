@@ -10,3 +10,21 @@
         <p>Some content here ...</p>
     </div>
 </bootstrap-panel>
+<br/>
+<div *ngIf="courses.length > 0; then coursesList else noCourses"></div>
+<ng-template #coursesList>
+    List of courses
+</ng-template>
+<ng-template #noCourses>
+    No courses yet
+</ng-template>
+<br/>
+<ul class="navbar">
+    <li class="active"><a href="">Map View</a></li>
+    <li><a href="">List View</a></li>
+</ul>
+<div>
+    <div>Map View Content</div>
+</div>
+<br/>
+<input type="text" [appInputFormat]="'uppercase'">

@@ -10,6 +10,7 @@ import { CoursesService } from './courses.service';
 import { SharedModule } from './shared/shared.module';
 import { FavoriteComponent } from './favorite/favorite.component';
 import { PanelComponent } from './panel/panel.component';
+import { InputFormatDirective } from './input-format.directive';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { PanelComponent } from './panel/panel.component';
     CourseComponent,
     CoursesComponent,
     FavoriteComponent,
-    PanelComponent
+    PanelComponent,
+    InputFormatDirective
   ],
   imports: [
     BrowserModule,

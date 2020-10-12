@@ -8,6 +8,8 @@ import { FavoriteChangedEventArgs } from './favorite/favorite.component';
   styleUrls: ['./app.component.sass']
 })
 export class AppComponent {
+  courses = [1, 2];
+
   post = {
     title: "Title",
     isFavorite: false
