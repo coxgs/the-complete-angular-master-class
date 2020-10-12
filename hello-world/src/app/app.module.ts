@@ -9,13 +9,15 @@ import { CoursesComponent } from './courses.component';
 import { CoursesService } from './courses.service';
 import { SharedModule } from './shared/shared.module';
 import { FavoriteComponent } from './favorite/favorite.component';
+import { PanelComponent } from './panel/panel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CourseComponent,
     CoursesComponent,
-    FavoriteComponent
+    FavoriteComponent,
+    PanelComponent
   ],
   imports: [
     BrowserModule,
